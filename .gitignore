@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.DS_STORE
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -75,6 +76,7 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+*.sln
 *.iobj
 *.pch
 *.pdb

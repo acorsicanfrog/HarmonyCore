@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <!-- Target .NET Framework version used by Unity -->
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputPath>output\</OutputPath>
+  </PropertyGroup>
+
+<!-- Disables the debug .pdb file when exporting your mod -->
+  <PropertyGroup>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+      <!-- Harmony library (patching API) -->
+    <Reference Include="0Harmony">
+    </Reference>
+
+      <!-- Game's main assembly -->
+    <Reference Include="Assembly-CSharp">
+      <Private>false</Private>
+    </Reference>
+
+      <!-- Unity core functionalities -->
+    <Reference Include="UnityEngine.CoreModule">
+      <Private>false</Private>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>
